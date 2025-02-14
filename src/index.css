@@ -2,19 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Contact Icons */
-.contact-icon {
-  @apply w-16 h-16 rounded-full border border-custom-green text-custom-green flex items-center justify-center hover:bg-custom-green hover:text-custom-dark transition-all duration-300;
+@layer base {
+  body {
+    @apply bg-slate-900 text-white;
+  }
 }
 
-.contact-icon svg {
-  @apply w-6 h-6; /* Adjust the size as needed */
+.gradient-text {
+  @apply bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent;
 }
 
-h1 {
-  font-size: 5rem;
-  position: relative;
-  display: inline-block;
-  color: black;
-  overflow: hidden;
+.card-gradient {
+  @apply bg-gradient-to-br from-slate-800 to-slate-900;
+}
+
+.nav-item {
+  @apply px-4 py-2 rounded-lg transition-colors hover:bg-slate-800;
+}
+
+.section-padding {
+  @apply py-20;
 }

@@ -1,32 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ali the Dev</title>
+    <title>Vite + React + TS</title>
   </head>
-  <body class="bg-custom-dark text-custom-white font-custom-font">
+  <body>
     <div id="root"></div>
-    <svg width="0" height="0">
-      <defs>
-        <filter id="distort">
-          <feTurbulence
-            type="turbulence"
-            baseFrequency="0.02"
-            numOctaves="3"
-            result="warp"
-          />
-          <feDisplacementMap
-            in="SourceGraphic"
-            in2="warp"
-            scale="30"
-            xChannelSelector="R"
-            yChannelSelector="G"
-          />
-        </filter>
-      </defs>
-    </svg>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
