@@ -24,7 +24,7 @@ function App() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center text-center">
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
-              <span className="gradient-text">Full Stack Developer</span>
+              <span className="gradient-text">Ali Ashraf</span>
             </h1>
             <p className="text-xl text-slate-400 max-w-2xl mb-8">
               Crafting digital experiences with code, one line at a time.
@@ -62,7 +62,7 @@ function App() {
             <div className="card-gradient p-6 rounded-xl">
               <Code2 className="w-12 h-12 text-emerald-400 mb-4" />
               <h3 className="text-xl font-bold mb-2">DevOps & Tools</h3>
-              <p className="text-slate-400">Docker, Git, AWS, CI/CD</p>
+              <p className="text-slate-400">Git, Jira, Miro, CI/CD</p>
             </div>
           </div>
         </div>
