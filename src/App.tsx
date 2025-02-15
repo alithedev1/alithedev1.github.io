@@ -1,5 +1,5 @@
-import React from 'react';
-import { Code2, Database, Globe2, Mail, Github, Linkedin, Terminal, Boxes } from 'lucide-react';
+
+import { Code2, Database, Globe2, Mail, Github, Linkedin, Terminal } from 'lucide-react';
 
 function App() {
   return (
